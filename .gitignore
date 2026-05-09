@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (downloaded separately from Kaggle)
+data/*.csv
+
+# Trained model artifacts
+models/*.pkl
+
+# Generated results (reproducible via main.py)
+results/*.png
